@@ -1,4 +1,3 @@
-
 import telebot, logging, requests, os, random, base64, itertools, re, time
 
 sk="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"
@@ -13,9 +12,9 @@ LOGGER = logging.getLogger("telebot").setLevel(logging.WARNING)
 
 # Init session
 vcc=open("livevccs.txt", "r").readlines()
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6296217708:AAENb-ZO4fKpgjQvS8U046DE77ZXWrdx6oA")
-LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001960941314")
-SUDO_USERS = os.environ.get("SUDO_USERS", "2105574691").split(" ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6241362530:AAFQcALhbekuJIB1ib3gMDDqZp77CL92wl0")
+LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001833808324")
+SUDO_USERS = os.environ.get("SUDO_USERS", "1909721616").split(" ")
 CMD_HANDLERS=list(os.environ.get("CMD_HANDLERS", ".$/!#~"))
 
 money=telebot.TeleBot(BOT_TOKEN)

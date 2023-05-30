@@ -1,5 +1,4 @@
 telebot
 requests
-base64
 re
 time

@@ -1,0 +1,27 @@
+{
+    "name": "Money bot ",
+    "description": "Money bot ",
+    "logo": "https://te.legra.ph/file/4457939f4c2ccaf36519c.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {},
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      }
+  }

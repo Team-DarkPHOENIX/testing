@@ -1,0 +1,9 @@
+[build]
+  command = "python3 moneybot.py"
+  publish = "main"
+
+[build.environment]
+  PYTHON_VERSION = "3.10.9"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

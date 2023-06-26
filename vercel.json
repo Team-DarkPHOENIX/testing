@@ -9,5 +9,6 @@
       "src": "/api/.*",
       "dest": "api/index.py"
     }
-  ]
+  ],
+  "version": 2
 }

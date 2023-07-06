@@ -12,8 +12,8 @@ LOGGER = logging.getLogger("telebot").setLevel(logging.WARNING)
 
 # Init session
 vcc=open("livevccs.txt", "r").readlines()
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "2146061906:AAF4yIqShPVN93lzenkXEXMZ1YuZ_EmJlVo")
-LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001833808324")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "2146061906:AAEXfVJMMvgFj1AAfLLu2yVylt2sBypz6i4")
+LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001523082196")
 SUDO_USERS = os.environ.get("SUDO_USERS", "1909721616").split(" ")
 CMD_HANDLERS=list(os.environ.get("CMD_HANDLERS", ".$/!#~"))
 

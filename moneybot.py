@@ -1,6 +1,6 @@
 import telebot, logging, requests, os, random, base64, itertools, re, time
 
-sk="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"
+sk="sk_live_Q0gQC9coYUIiUshIHCdWKBiD"
 
 from telebot.types import *
 logging.basicConfig(
